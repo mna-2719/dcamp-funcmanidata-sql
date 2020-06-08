@@ -20,5 +20,3 @@ SELECT
 FROM INFORMATION_SCHEMA.COLUMNS 
 -- For the customer table
 WHERE table_name = 'customer';
-
-
