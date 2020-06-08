@@ -28,6 +28,3 @@ SELECT title, description
 FROM film
 -- Convert the title to a tsvector and match it against the tsquery 
 WHERE to_tsvector(title) @@ tsquery('elf');
-
-
-
