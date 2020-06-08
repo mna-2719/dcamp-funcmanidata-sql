@@ -5,5 +5,3 @@ SELECT
  	-- Calculate the expected_return_date
 	rental_date + INTERVAL '3 Days' AS expected_return_date
 FROM rental;
-
-
