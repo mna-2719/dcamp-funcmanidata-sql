@@ -73,5 +73,3 @@ WHERE
   -- Use an INTERVAL for the upper bound of the rental_date 
   r.rental_date BETWEEN CAST('2005-05-01' AS DATE) 
   AND CAST('2005-05-01' AS DATE) + INTERVAL '90 day';
-
-
