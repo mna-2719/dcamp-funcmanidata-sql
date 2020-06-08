@@ -52,5 +52,3 @@ WHERE
   to_tsquery('Astounding & Drama') 
 ORDER BY 
 	similarity(description, 'Astounding Drama') DESC;
-
-
